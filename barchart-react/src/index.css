@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+svg{
+  margin-top: 3vh;
+  height: 80vh;
+  width: 80vw;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px black;
+  
+}
+
+.bar{
+  fill:rgb(13, 13, 155);
+}
+
+.bar:hover{
+  fill: black;
+}
+
+g{
+  color: black;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 10vw;
+  height: 10vh;
+  padding: 2px;
+  font: 12px;
+  background: lightsteelblue;
+  box-shadow: 1px 1px 10px;
+  border-radius: 2px;
+}
+
+#title{
+  text-align: center;
+  font-size: 30px;
+  fill: rgb(63, 62, 62);
+}
