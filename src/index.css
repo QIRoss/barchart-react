@@ -30,12 +30,11 @@ g{
 }
 
 #tooltip {
+  visibility: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 10vw;
-  height: 10vh;
   padding: 2px;
   font: 12px;
   background: lightsteelblue;
